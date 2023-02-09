@@ -1,4 +1,6 @@
-def sum_terms(n)
-    # your code here
-      (1..n).reduce(0) { |sum, i| sum + (i * i + 1) }
-      end  
+def rot13(secret_messages)
+  # your code here
+    secret_messages.map do |message|
+      message.tr("A-Za-z", "N-ZA-Mn-za-m")
+end
+end

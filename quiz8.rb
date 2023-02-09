@@ -1,7 +1,6 @@
 
-def rot13(secret_messages)
-    # your code here
-      secret_messages.map do |message|
-        message.tr("A-Za-z", "N-ZA-Mn-za-m")
+# Your code here
+def take(arr, n=1)
+    arr[n..-1]
   end
-  end
+  
