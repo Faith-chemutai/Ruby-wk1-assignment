@@ -1,4 +1,6 @@
 def func_any(hash)
+      # your code here
+
     hash.any? { |key, value| key.is_a? Integer }
   end
   
